@@ -15,8 +15,7 @@ export default function HomePage() {
         }}
       >
         {/* Text Box */}
-        <div className="absolute top-[140px] left-[1200px] bg-white/10 backdrop-blur-md p-8 rounded-lg max-w-2xl text-center text-white shadow-xl">
-
+        <div className="absolute top-[600px] left-0 right-0 mx-auto bg-white/10 backdrop-blur-md p-8 rounded-lg max-w-2xl text-center text-white shadow-xl">
           <h1 className="text-4xl font-bold">
             Welcome to My Digital Playground
           </h1>
