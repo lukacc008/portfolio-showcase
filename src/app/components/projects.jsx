@@ -25,7 +25,7 @@ export default function Projects() {
       link: "https://youraiblog.com",
     },
   ];
-
+ 
   return (
     <div>
       {projects.map((project, index) => (
