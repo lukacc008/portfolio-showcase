@@ -10,22 +10,22 @@ export default function Projects() {
     },
     {
       id: "project2",
-      title: "E-Commerce Store",
+      title: "First Tailwind Project",
       description:
-        "A full-featured online store with React, Stripe, and a powerful CMS.",
+        "A responsive portfolio website built with Tailwind CSS, featuring smooth animations using AOS (Animate on Scroll). Includes a contact form powered by EmailJS for direct communication. Utilizes React hooks such as useState and useEffect for dynamic UI interactions.",
       image: "/project2.jpg",
       link: "https://lukacc008.github.io/tailwind-portfolio/",
     },
     {
       id: "project3",
-      title: "AI Blog Generator",
+      title: "Tic-Tac-Toe Game",
       description:
-        "An AI-powered blog writing assistant that helps you create content effortlessly.",
+        "A classic Tic-Tac-Toe game built with React, featuring interactive gameplay, real-time state management with useState, and dynamic UI updates. Includes win detection logic, a reset function.",
       image: "/project3.jpg",
-      link: "https://youraiblog.com",
+      link: "https://tic-tac-toe-project-flame.vercel.app/",
     },
   ];
- 
+
   return (
     <div>
       {projects.map((project, index) => (
