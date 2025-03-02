@@ -35,9 +35,9 @@ export default function Projects() {
           className="h-screen relative flex items-center justify-center bg-cover bg-center"
           style={{
             backgroundImage: `url(${project.image})`,
-            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 98%)",
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 92%)",
           }}
-        >
+        > 
           {/* Overlay for readability */}
           <div className="absolute inset-0 bg-black/40"></div>
 
