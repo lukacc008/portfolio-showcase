@@ -56,7 +56,7 @@ export default function Projects() {
               >
                 Visit
               </a>
-            </div>
+            </div> 
           </div>
         </section>
       ))}
