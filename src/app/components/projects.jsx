@@ -37,7 +37,7 @@ export default function Projects() {
             backgroundImage: `url(${project.image})`,
             clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 92%)",
           }}
-        > 
+        >
           {/* Overlay for readability */}
           <div className="absolute inset-0 bg-black/40"></div>
 
