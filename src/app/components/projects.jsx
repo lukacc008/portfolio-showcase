@@ -45,7 +45,7 @@ export default function Projects() {
           <div className="relative z-10 text-white text-center max-w-2xl p-6">
             <h2 className="text-4xl font-bold">{project.title}</h2>
             <p className="text-lg mt-4">{project.description}</p>
-
+ 
             {/* Visit Button - Positioned Bottom Right of Center */}
             <div className="mt-8 flex justify-end">
               <a
