@@ -35,18 +35,20 @@ export default function Projects() {
           className="h-screen relative flex items-center justify-center bg-cover bg-center"
           style={{
             backgroundImage: `url(${project.image})`,
-            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 92%)",
           }}
         >
-          {/* Overlay for readability */}
+          {/* Dark Overlay for Readability */}
           <div className="absolute inset-0 bg-black/40"></div>
-
+  
+          {/* Blurred Transition Effect */}
+          <div className="absolute bottom-0 left-0 w-full h-[30px] backdrop-blur-lg bg-white/10"></div>
+  
           {/* Content Wrapper */}
           <div className="relative z-10 text-white text-center max-w-2xl p-6">
             <h2 className="text-4xl font-bold">{project.title}</h2>
             <p className="text-lg mt-4">{project.description}</p>
- 
-            {/* Visit Button - Positioned Bottom Right of Center */}
+  
+            {/* Visit Button */}
             <div className="mt-8 flex justify-end">
               <a
                 href={project.link}
@@ -56,10 +58,12 @@ export default function Projects() {
               >
                 Visit
               </a>
-            </div> 
+            </div>
           </div>
         </section>
       ))}
     </div>
   );
+  
+  
 }
